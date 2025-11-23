@@ -1,0 +1,94 @@
+/* Container - center everything */
+.p10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* full screen height */
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Heading */
+.p9 {
+    color: #0A3D62;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Form */
+.p8 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.p8 label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0A3D62;
+}
+
+.p8 input[type="text"],
+.p8 input[type="number"],
+.p8 textarea {
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border: 2px solid #0A3D62;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+/* Button */
+.p11 {
+    padding: 10px 20px;
+    background-color: #0A3D62;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.p11:hover {
+    background-color: #082B49;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .p10 {
+        padding: 10px;
+    }
+
+    .p9 {
+        font-size: 20px;
+    }
+
+    .p8 {
+        padding: 15px;
+    }
+
+    .p8 input[type="text"],
+    .p8 input[type="number"],
+    .p8 textarea {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .p11 {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}

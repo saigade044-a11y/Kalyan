@@ -1,0 +1,102 @@
+ MAIN CONTAINER */
+.p1 {
+  padding: 30px;
+  margin-left: 260px; /* sidebar space */
+}
+
+/* SEARCH BAR */
+.p2 {
+  margin-bottom: 20px;
+}
+
+.p2 input {
+  width: 300px;
+  padding: 10px 14px;
+  border: 2px solid #0A3D62;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.p2 input:focus {
+  box-shadow: 0 0 8px rgba(10, 61, 98, 0.5);
+}
+
+/* TABLE */
+.p3 {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.p3 th {
+  background-color: #0A3D62;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.p3 td {
+  padding: 12px;
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect */
+.p3 tbody tr:hover {
+  background-color: #dfefff;
+}
+
+/* Button inside table */
+.p3 button {
+  background-color: #1B4F72;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: 14px;
+}
+
+.p3 button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #0A3D62;
+  font-weight: 600;
+}
+
+
+/* ---------------------------------
+   ✔ ONLY 600px MEDIA QUERY
+---------------------------------- */
+
+@media (max-width: 600px) {
+  .p1 {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  /* Search input becomes full width */
+  .p2 input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  /* Table text smaller */
+  .p3 th,
+  .p3 td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  /* Buttons smaller */
+  .p3 button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}

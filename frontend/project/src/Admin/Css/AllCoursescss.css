@@ -1,0 +1,76 @@
+neral styling */
+.p4 {
+    padding: 20px;
+    background-color: #ffffff; /* white background */
+    color: #000000; /* black text */
+    font-family: Arial, sans-serif;
+}
+
+/* Form styling */
+.p5 input[type="text"] {
+    width: 100%;
+    max-width: 700px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border: 2px solid #0A3D62; /* custom blue border */
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left:200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #0A3D62; 
+    color: #ffffff; 
+}
+
+td {
+    background-color: #f9f9f9; 
+    color: #000000;
+}
+
+button {
+    padding: 6px 12px;
+    background-color: #0A3D62; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+/* Media Query for screens 600px and below */
+@media only screen and (max-width: 600px) {
+    .p4 {
+        padding: 10px;
+    }
+
+    .p5 input[type="text"] {
+        font-size: 14px;
+        margin-right: 200px;
+        width: 180px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+}

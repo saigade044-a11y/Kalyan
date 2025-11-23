@@ -1,0 +1,91 @@
+.p6 {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+/* Headings */
+.p6 h1 {
+    color: #0A3D62;
+    margin-bottom: 10px;
+}
+
+.p6 h2 {
+    color: #0A3D62;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.p6-button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #0A3D62;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.p6-button:hover {
+    background-color: #082B49;
+}
+
+/* Table */
+.p7 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.p7 th, .p7 td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+
+.p7 th {
+    background-color: #0A3D62;
+    color: #ffffff;
+}
+
+.p7 td {
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+/* Blink effect */
+.p7 tr {
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .p6 {
+        padding: 10px;
+    }
+
+    .p6 h1 {
+        font-size: 20px;
+    }
+
+    .p6 h2 {
+        font-size: 18px;
+    }
+
+    .p6-button {
+        padding: 6px 12px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .p7 th, .p7 td {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
